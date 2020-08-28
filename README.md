@@ -1,4 +1,5 @@
-# vue-mysql-crud
+# electron-vue + MySql 
+CRUD application with electron-vue, vuetify and MySql.
 
 ## Project setup
 ```
@@ -7,13 +8,14 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run electron:serve
 ```
 
-### Compiles and minifies for production
+### To build your app
 ```
-npm run build
+npm run electron:build
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue configuration: [Configuration Reference](https://cli.vuejs.org/config/).
+vue-cli-plugin-electron: [Configuration Reference](https://github.com/nklayman/vue-cli-plugin-electron-builder)
